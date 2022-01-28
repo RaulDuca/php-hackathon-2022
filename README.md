@@ -56,4 +56,3 @@ In this section, please let us know what is your opinion about this experience a
 7. Did you find the resources you were sent on your email useful?
 8. Is there anything you would like to improve to your current implementation?
 9. What would you change regarding this anti hackathon?
-
