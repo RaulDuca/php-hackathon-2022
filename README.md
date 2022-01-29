@@ -35,8 +35,8 @@ Please fill in the following table with the technologies you used in order to wo
 | Name | Choice |
 | ------ | ------ |
 | Operating system (OS) | Windows 10 |
-| Database  | e.g. MySQL 5.7.19|
-| PHP | e.g. 7.1.9 |
+| Database  | MySQL 5.7.19|
+| PHP | 7.1.9 |
 | Text Editor | Notepad++ |
 
 ### Testing
