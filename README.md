@@ -18,7 +18,7 @@ In this section, please describe the main entities you managed to identify, the 
   1. Clients table contains information about the client : name, last name, CNP (which is the PRIMARY KEY), phone number and the type of programme the client chose
   2. Rooms table shows in which rooms any programme type(set as PRIMARY KEY) will take place, name room and its capacity
 ### Application architecture
-In this section, please provide a brief overview of the design of your application and highlight the main components and the interaction between them.
+In this section, please provide a brief overview of the design of your application and highlight the main components and the interaction between them.\
 An admin can add programmes to the Center's timetable.
 A user can register and make appointments to the programmes providing his full name, phone number and the CNP which is his unique user id. When registering the client can see the programmes at what time they are set and after registering it will show if the appointment was succesfull or not based on the rooms capacity. The client can also delete his appointment if he changed his mind, something came up and can't attend the programme or want to select a different one, thus an extra free spot will be available for the first said programme
 ###  Implementation
