@@ -60,21 +60,21 @@ App testing was made by me.
 ## Feedback
 In this section, please let us know what is your opinion about this experience and how we can improve it:
 
-1. Have you ever been involved in a similar experience? If so, how was this one different?
+1. Have you ever been involved in a similar experience? If so, how was this one different?\
   I wasn't involved in a project like this.
-2. Do you think this type of selection process is suitable for you?
+2. Do you think this type of selection process is suitable for you?\
   I believe this type of selection is suitable for me because it can show the way a person sees and approach a problem. Knowing more technologies surely helps in creating the app but the lateral and analytical thinking are the main points to be considered.
-3. What's your opinion about the complexity of the requirements?
+3. What's your opinion about the complexity of the requirements?\
   The requirements were complex and challenging, just the way it had to be, maybe a bit lower.
-4. What did you enjoy the most?
+4. What did you enjoy the most?\
   I enjoyed beeing part of a big project and having the support provided by the hiring comittee 
-5. What was the most challenging part of this anti hackathon?
+5. What was the most challenging part of this anti hackathon?\
   The most challenging part was not beeing able to use more advanced technologies since I did not studied them.
-6. Do you think the time limit was suitable for the requirements?
+6. Do you think the time limit was suitable for the requirements?\
   I don't think the time limit was suitable.
-7. Did you find the resources you were sent on your email useful?
+7. Did you find the resources you were sent on your email useful?\
   Yes I did.
-8. Is there anything you would like to improve to your current implementation?
+8. Is there anything you would like to improve to your current implementation?\
   I would like to add more options on the admin side, being able to modify the schedule and view more data from the database.
-9. What would you change regarding this anti hackathon?
+9. What would you change regarding this anti hackathon?\
   I think it was good, can't say i would want to change something in particular.
