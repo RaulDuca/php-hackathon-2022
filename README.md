@@ -14,18 +14,32 @@ You have estimated it takes 4 weeks to build this solution. You have 3 days. Goo
 ## Technical documentation
 ### Data and Domain model
 In this section, please describe the main entities you managed to identify, the relationships between them and how you mapped them in the database.
+  The database created will be formed by two tables , one for clients and other for rooms.
+  1. Clients table contains information about the client : name, last name, CNP (which is the PRIMARY KEY), phone number and the type of programme the client chose
+  2. Rooms table shows in which rooms any programme type(set as PRIMAARY KEY) will take place, name room and its capacity
 ### Application architecture
 In this section, please provide a brief overview of the design of your application and highlight the main components and the interaction between them.
+An admin can add programmes to the Center's timetable.
+A user can register and make appointments to the programmes providing his full name, phone number and the CNP which is his unique user id. When registering the client can see the programmes at what time they are set and after registering it will show if the appointment was succesfull or not based on the rooms capacity. The client can also delete his appointment if he changed his mind, something came up and can't attend the programme or want to select a different one, thus an extra free spot will be available for the first said programme
 ###  Implementation
 ##### Functionalities
 For each of the following functionalities, please tick the box if you implemented it and describe its input and output in your application:
 
+[X] Connection to database\
+[X] Creating tables\
+[X] Inserting data in tables using a register form\
 [x] Create programme \
-[ ] Delete programme \
-[x] Book a programme 
+[x] Book an appointment for the programme \
+[X] Delete an appointment
+[X] Show all scheduled appointments in a table which contains the clients data and the programme type
 
 ##### Business rules
 Please highlight all the validations and mechanisms you identified as necessary in order to avoid inconsistent states and apply the business logic in your application.
+
+A client can make a single appointment.
+A person can't make more than one account because his CNP(which is also his id number) is unique and cant be inserted in the database more than once.
+Each room can host one or more programme types. the rooms can't be used at the same time for separate programmes.
+The rooms capacity can't be exceeded. The app will not allow to book appointments over it.
 
 ##### 3rd party libraries (if applicable)
 Please give a brief review of the 3rd party libraries you used and how/ why you've integrated them into your project.
@@ -41,16 +55,26 @@ Please fill in the following table with the technologies you used in order to wo
 
 ### Testing
 In this section, please list the steps and/ or tools you've used in order to test the behaviour of your solution.
+App testing was made by me.
 
 ## Feedback
 In this section, please let us know what is your opinion about this experience and how we can improve it:
 
 1. Have you ever been involved in a similar experience? If so, how was this one different?
+  I wasn't involved in a project like this.
 2. Do you think this type of selection process is suitable for you?
+  I believe this type of selection is suitable for me because it can show the way a person sees and approach a problem. Knowing more technologies surely helps in creating the app but the lateral and analytical thinking are the main points to be considered.
 3. What's your opinion about the complexity of the requirements?
+  The requirements were complex and challenging, just the way it had to be, maybe a bit lower.
 4. What did you enjoy the most?
+  I enjoyed beeing part of a big project and having the support provided by the hiring comittee 
 5. What was the most challenging part of this anti hackathon?
+  The most challenging part was not beeing able to use more advanced technologies since I did not studied them.
 6. Do you think the time limit was suitable for the requirements?
+  I don't think the time limit was suitable.
 7. Did you find the resources you were sent on your email useful?
+  Yes I did.
 8. Is there anything you would like to improve to your current implementation?
+  I would like to add more options on the admin side, being able to modify the schedule and view more data from the database.
 9. What would you change regarding this anti hackathon?
+  I think it was good, can't say i would want to change something in particular.
