@@ -50,6 +50,7 @@ Please fill in the following table with the technologies you used in order to wo
 | ------ | ------ |
 | Operating system (OS) | Windows 10 |
 | Database  | MySQL 5.7.19|
+| Web Server | Wamp 3.1.0|
 | PHP | 7.1.9 |
 | Text Editor | Notepad++ |
 
