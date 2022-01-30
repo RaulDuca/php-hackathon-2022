@@ -16,7 +16,7 @@ You have estimated it takes 4 weeks to build this solution. You have 3 days. Goo
 In this section, please describe the main entities you managed to identify, the relationships between them and how you mapped them in the database.
   The database created will be formed by two tables , one for clients and other for rooms.
   1. Clients table contains information about the client : name, last name, CNP (which is the PRIMARY KEY), phone number and the type of programme the client chose
-  2. Rooms table shows in which rooms any programme type(set as PRIMAARY KEY) will take place, name room and its capacity
+  2. Rooms table shows in which rooms any programme type(set as PRIMARY KEY) will take place, name room and its capacity
 ### Application architecture
 In this section, please provide a brief overview of the design of your application and highlight the main components and the interaction between them.
 An admin can add programmes to the Center's timetable.
