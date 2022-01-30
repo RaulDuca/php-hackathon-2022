@@ -30,7 +30,7 @@ For each of the following functionalities, please tick the box if you implemente
 [X] Inserting data in tables using a register form\
 [x] Create programme \
 [x] Book an appointment for the programme \
-[X] Delete an appointment
+[X] Delete an appointment\
 [X] Show all scheduled appointments in a table which contains the clients data and the programme type
 
 ##### Business rules
