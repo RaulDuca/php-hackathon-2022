@@ -1,13 +1,14 @@
 <?php
 include'Connect_HC.php';
 
-if (!isset($_POST['Prog']))
+		if (!isset($_POST['Prog']))
 {
-		echo "Choose a programme you wish to add"."<br>";
+			echo "<h4>Choose a programme you wish to add</h4>"."<br>";
 
 		die;
 }
-	else
+		else
+			
 		$Selected_Programme=$_POST["Prog"];
 		$Room_Number=[];
 		$Programme_Type=[];
@@ -30,32 +31,19 @@ if (!isset($_POST['Prog']))
 			$Room_Number='1';$Programme_Type='Yoga';$Room_Capacity=40;
 			break;
 		}	
-		echo "You selected ".$_POST['Prog']."<br>";
-
-$Selected_Programme=$_POST['Prog'];
-
-$Rooms="INSERT INTO `Rooms`(Room_Number,Programme_Type,Room_Capacity)
+		echo "<h4>You selected </h4>".$_POST['Prog']."<br>";
+		
+		//Inserting data into databases tables
+		
+	$Rooms="INSERT INTO `Rooms`(Room_Number,Programme_Type,Room_Capacity)
 	VALUES('$Room_Number','$Selected_Programme','$Room_Capacity')";
 	
-if(!mysqli_query($connect,$Rooms))
+		if(!mysqli_query($connect,$Rooms))
 {
-		echo "Programme not added ".mysqli_error($connect);
+			echo "<h4>Programme not added </h4>".mysqli_error($connect);
 }
-	else
-		echo "Programme added to timetable ";
-		echo "<br>";
-
-/* if(isset($_POST['delete_prog']))
-{
-	$delete_programme="DELETE FROM `rooms` WHERE Programme_Type='$Selected_Programme'";
-	
-		if(mysqli_query($connect,$delete_programme))
-		{
-			echo "Programme removed from timetable ";
-			die;
-		}
-}
-else
-	echo "Was'nt able to delete programme from timetable ".mysqli_error($connect); */
+		else
+			echo "<h4>Programme added to timetable </h4>";
+			echo "<br>";
 
 ?>

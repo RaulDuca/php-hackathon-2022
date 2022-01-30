@@ -3,7 +3,7 @@ $servername="localhost";
 $username="root";
 $password="";
 $database="Health_Center";
-$connect=mysqli_connect($servername,$username,$password,$database);//connecting to server
+$connect=mysqli_connect($servername,$username,$password,$database);//connecting to server /* ,$database */
 
 
 	if($connect)
@@ -25,5 +25,6 @@ $connect=mysqli_connect($servername,$username,$password,$database);//connecting 
 
 mysqli_close($connect); */
 
+/* Before creating the database comment $database, after creating uncomment the parameter*/
 
 ?>

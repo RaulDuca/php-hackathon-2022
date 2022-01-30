@@ -3,25 +3,25 @@
 	<body>
 		<form action="Register_Form.php" method="post">
 		
-		Name : 		 <input type="text" name="Name" required><br>
+		<h4><p>Name : 		 <input type="text" name="Name" required><br></p></h4>
 		
-		Last Name :  <input type="text" name="Last_Name" required><br>
+		<h4><p>Last Name :  <input type="text" name="Last_Name" required><br></p></h4>
+		<h4><p>The CNP will be your user id with which you will schedule or delete your appointments<br></p></h4>
+		<h4><p>CNP : 		 <input type="number" name="CNP" required><br></p></h4>
+		<h4><p>*If you dont have a CNP use the format : start with the digit "3" followed by last two digits of birth year,month number and date, followed by 000000<br></p></h4>
 		
-		CNP : 		 <input type="number" name="CNP" required><br>
-		*If you dont have a CNP use the format : start with the digit "3" followed by last two digits of birth year,month number and date, followed by 000000<br>
+		<h4><p>Phone Number :<input type="tel" name="Phone_Number" required><br></p></h4>
 		
-		Phone Number :<input type="tel" name="Phone_Number" required><br>
-		
-		Programme : <select name="Programme" Value="Programme">
-					<option value="Abs" selected>Abs</option>
-					<option value="Kangoo_Jumps">Kangoo Jumps</option>
-					<option value="Pilates">Pilates</option>
-					<option value="Yoga">Yoga</option>
+		<h4><p>Programme : <select name="Programme" Value="Programme"></p></h4>
+					<option value="Abs" selected>Abs 12:00-13:00</option>
+					<option value="Kangoo_Jumps">Kangoo Jumps 10:00-11:00</option>
+					<option value="Pilates">Pilates 18:00-19:00</option>
+					<option value="Yoga">Yoga 20:00-21:00</option>
 					</select>
 					
-					<input type="submit" name="Send" id="Send" value="Send"><br>
+					<input type="submit" name="Send" id="Send" value="Send"><br><br>
 					<input type="submit" name="Delete" id="Delete" value="Delete">
-					<input type="reset" value="Clear Form">
+					<input type="reset" value="New Form">
 		</form>
 	</body>
 </html>

@@ -1,12 +1,12 @@
 <?php
-include'Connect_HC.php';
+include'Connect_HC.php'; // Includes connection to the database
 
 $TableRooms="CREATE TABLE `Rooms`
 	(`Room_Number` INT(10) NOT NULL,
 	`Programme_Type` VARCHAR (25) PRIMARY KEY NOT NULL,
 	`Room_Capacity` INT (10) NOT NULL)";
 	
-if(mysqli_query($connect,$TableRooms))
+if(mysqli_query($connect,$TableRooms)) //Creating tables into database
 {
 	echo "Rooms Table has been created";
 	
