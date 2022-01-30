@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<form action="Register_Form.php" method="post">
+		
+		Name : 		 <input type="text" name="Name" required><br>
+		
+		Last Name :  <input type="text" name="Last_Name" required><br>
+		
+		CNP : 		 <input type="number" name="CNP" required><br>
+		*If you dont have a CNP use the format : start with the digit "3" followed by last two digits of birth year,month number and date, followed by 000000<br>
+		
+		Phone Number :<input type="tel" name="Phone_Number" required><br>
+		
+		Programme : <select name="Programme" Value="Programme">
+					<option value="Abs" selected>Abs</option>
+					<option value="Kangoo_Jumps">Kangoo Jumps</option>
+					<option value="Pilates">Pilates</option>
+					<option value="Yoga">Yoga</option>
+					</select>
+					
+					<input type="submit" name="Send" id="Send" value="Send"><br>
+					<input type="submit" name="Delete" id="Delete" value="Delete">
+					<input type="reset" value="Clear Form">
+		</form>
+	</body>
+</html>
